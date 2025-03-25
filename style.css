@@ -1,0 +1,55 @@
+body{
+  background-image: url(https://t4.ftcdn.net/jpg/12/35/11/95/360_F_1235119556_aija9dJEo5giGoLNvGLISbTfYG68LFfj.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: beige;
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  display: block;
+}
+.nao{
+  display: block;
+  background-color: rgba(10, 56, 206, 0.63);
+  border-radius: 20px;
+  position: absolute;
+  top: auto;
+  left: auto;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 500px;
+  margin-bottom: 200px;
+}
+.sim{
+  display: block;
+  background-color: rgb(206, 10, 206);
+  border-radius: 20px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+.btn{
+  margin: 100px 200px 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+  width: 150px;
+  border: 1px solid brown;
+  border-radius: 30px;
+  padding: 8px;
+}
+.main{
+  border: 1px solid whitesmoke;
+  padding: 2px;
+  margin: 50px 500px 0 500px;
+  border-radius: 50px ;
+}
+.nav{
+  background-color: rgb(54, 11, 95);
+}
+a{
+  margin-right: 160px;
+}
