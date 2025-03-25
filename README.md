@@ -1,2 +1,2 @@
-# c-digo-random-position
+# codigo-random-position
 Fiz esse código que faz o botão trocar de posição quando clica nele
