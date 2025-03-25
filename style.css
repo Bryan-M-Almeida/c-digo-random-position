@@ -1,55 +1,77 @@
-body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   background-image: url(https://t4.ftcdn.net/jpg/12/35/11/95/360_F_1235119556_aija9dJEo5giGoLNvGLISbTfYG68LFfj.jpg);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   color: beige;
   text-align: center;
   font-style: italic;
   font-family: cursive;
-  display: block;
-}
-.nao{
-  display: block;
-  background-color: rgba(10, 56, 206, 0.63);
-  border-radius: 20px;
-  position: absolute;
-  top: auto;
-  left: auto;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  margin-left: 500px;
-  margin-bottom: 200px;
-}
-.sim{
-  display: block;
-  background-color: rgb(206, 10, 206);
-  border-radius: 20px;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-}
-.btn{
-  margin: 100px 200px 0 0;
+  min-height: 100vh;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-img{
-  width: 150px;
+
+.main {
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  max-width: 90%;
+  width: 400px;
+  border-radius: 50px;
+}
+
+img {
+  width: 100%;
+  max-width: 150px;
   border: 1px solid brown;
   border-radius: 30px;
   padding: 8px;
 }
-.main{
-  border: 1px solid whitesmoke;
-  padding: 2px;
-  margin: 50px 500px 0 500px;
-  border-radius: 50px ;
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  
 }
-.nav{
-  background-color: rgb(54, 11, 95);
+
+.btn button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid grey;
 }
-a{
-  margin-right: 160px;
+
+.sim {
+  background-color: rgb(206, 10, 206);
+}
+
+.nao {
+  background-color: rgb(10, 56, 206);
+  
+}
+
+@media (max-width: 600px) {
+  .btn {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .btn button {
+    width: 150%;
+    margin-bottom: 30px;
+  }
 }
